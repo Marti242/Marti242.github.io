@@ -836,7 +836,7 @@ function validateEmail(mail) {
 }
 
 takePhoto.addEventListener('click', () => {
-  snapshot.src = './DexterApp/static/img/raw_image.jpg';
+  snapshot.src = '../img/raw_image.jpg';
 });
 
 $(function() {
